@@ -1,0 +1,7 @@
+= Demo for https://issues.apache.org/jira/browse/LOG4J2-3634[LOG4J2-3634]
+
+. Start the webapp
+. See the JUL message is missing in the console
+. Configure the modified handler in `src/main/webapp/WEB-INF/classes/logging.properties`
+. Restart webapp
+. You should see the before missed message
